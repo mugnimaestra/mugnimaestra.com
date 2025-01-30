@@ -33,6 +33,9 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.12.0",
     "@builder.io/qwik-city": "^1.12.0",
+    "@mdx-js/react": "^3.1.0",
+    "@mdx-js/rollup": "^3.1.0",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/eslint": "8.56.10",
     "@types/node": "20.14.11",
     "@typescript-eslint/eslint-plugin": "7.16.1",
@@ -44,6 +47,7 @@
     "postcss": "^8.4.39",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
+    "rehype-highlight": "^7.0.1",
     "tailwindcss": "^3.4.6",
     "typescript": "5.4.5",
     "undici": "*",
@@ -51,5 +55,8 @@
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.6",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1"
   }
 }

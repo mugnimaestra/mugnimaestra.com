@@ -103,6 +103,19 @@ export default component$(() => {
         </div>
       </div>
 
+      {/* Blog Section */}
+      <div class="mx-auto max-w-2xl px-4 py-16">
+        <h2 class="font-display text-h3 text-oxford dark:text-oxford-50 mb-8 font-medium">
+          Blog
+        </h2>
+        <a
+          href="/blog"
+          class="group inline-block text-body text-oxford hover:text-oxford-300 dark:text-oxford-50 dark:hover:text-oxford-200 transition-colors"
+        >
+          Read my thoughts on web development, technology, and more →
+        </a>
+      </div>
+
       {/* Contact Section */}
       <div class="mx-auto max-w-2xl px-4 py-16">
         <h2 class="font-display text-h3 text-oxford dark:text-oxford-50 mb-8 font-medium">

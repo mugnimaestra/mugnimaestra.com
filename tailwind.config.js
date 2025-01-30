@@ -10,6 +10,7 @@ export default {
           100: "#E2E5EE",
           200: "#A1A9C2",
           300: "#4A5578",
+          900: "#0F111A",
         },
       },
       fontFamily: {
@@ -26,7 +27,51 @@ export default {
         h1: ["2.25rem", { lineHeight: "1.2" }], // 36px
         display: ["3rem", { lineHeight: "1.2" }], // 48px
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#212437',
+            a: {
+              color: '#4A5578',
+              '&:hover': {
+                color: '#212437',
+              },
+            },
+            h1: {
+              fontFamily: 'Montserrat, system-ui, sans-serif',
+              color: '#212437',
+            },
+            h2: {
+              fontFamily: 'Montserrat, system-ui, sans-serif',
+              color: '#212437',
+            },
+            h3: {
+              fontFamily: 'Montserrat, system-ui, sans-serif',
+              color: '#212437',
+            },
+            h4: {
+              fontFamily: 'Montserrat, system-ui, sans-serif',
+              color: '#212437',
+            },
+            'code::before': {
+              content: '""',
+            },
+            'code::after': {
+              content: '""',
+            },
+            code: {
+              color: '#212437',
+              backgroundColor: '#F8F9FC',
+              padding: '0.2em 0.4em',
+              borderRadius: '0.25em',
+              fontWeight: '400',
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
